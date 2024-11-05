@@ -1,16 +1,20 @@
 # 1) Strategy Evaluation
-- Compute $\Delta$
-- Compute exploitabily and nash conv
-- Compute $\epsilon$ (as in $\epsilon$-Nash equilibrium) 
+- Compute $\delta$ for both players
+- Compute NashConv and exploitability of a given strategy profile
+- Compute $\epsilon$ (as in $\epsilon$-Nash Equilibrium)
 
 
-# 2) Maximin <==> Nash
-Using the minimax theorem (slide #56), prove
-- Nash => Maximin (slide #57)
-- Maximin => Nash (slide #58) 
+# 2) Nash <==> Maximin
+Using the Minimax theorem, prove
+- Nash => Maximin
+- Maximin => Nash
 
 
-# 3) Self-play Methods
-- Implement fictitious self-play  
-- Implement ``naive`` self-play where you best-respond against the last strategy of the opponent (rather than the averaged one)
-- Plot the exploitability of the averaged strategy for both implementations (see also ../libs/week3.ipynb)
+# 3) Self-Play Methods
+- Implement Fictitious Play for Normal-Form Games
+- Implement a **naive** version of self-play where you best-respond against the last strategy of the opponent, rather than the average one
+- Plot the exploitability of the average strategy profile for both implementations
+
+## Tests
+
+See `tests/test_week3.ipynb` for sample outputs and graphs.
