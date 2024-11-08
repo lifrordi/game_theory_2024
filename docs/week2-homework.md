@@ -1,7 +1,12 @@
-# 1) Best Response Value Function
-- Draw best-response value function for a $(2 \times N)$ matrix game
+# Week 2 Homework
 
-# 2) Nash Equilibria From Support
+## 1) Best Response Value Function
+- Plot the best-response value function for a 2xN matrix game.
 
-- Given a support for both players, construct a set of linear equations and see whether there exists a Nash equilibrium for that support. Use SciPy to solve the constructed LP 
-- Enumerate all possible supports and try to find a Nash Equilibrium for each support
+## 2) Finding Nash Equilibria by Support Enumeration
+- Given supports for both players, construct a set of linear equations and determine whether there exists a Nash Equilibrium for the given support. You can use Scipy to solve the constructed linear program.
+- Implement the Support Enumeration algorithm which enumerates all possible supports and tries to find all Nash Equilibria for the given game.
+
+# Week 2 Tests
+
+See `tests/test_week2.ipynb` for sample outputs and graphs.

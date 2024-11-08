@@ -2,7 +2,7 @@
 
 ## 1) Dev Stack
 - Get familiar with Python and Jupyter notebooks
-- Get familiar with Numpy and Matplotlib
+- Get familiar with Numpy, Scipy and Matplotlib
 - Get familiar with GitHub. You are expected to submit homework solutions to your **private** repository
 
 ## 2) Strategy Profile Evaluation
