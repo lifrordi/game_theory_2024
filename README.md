@@ -15,3 +15,4 @@ If you have downloaded an older version of the repository you may find older ver
 ## Contact
 
 For any questions or clarifications related to the course materials, please contact the course instructor or teaching assistant. You can reach us through the course Discord server or the faculty emails.
+Alternatively, if you spot a mistake in assignments or have an improvement, feel free to submit a PR!
