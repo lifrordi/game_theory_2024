@@ -1,8 +1,9 @@
 # Week 6 Homework
 
-## 1) Extensive-form Game Data Structure and Kuhn Poker
+## 1) Extensive-form Game Data Structure and Poker Games
 - Implement a suitable data structure to represent extensive-form games
 - Using the data structure, implement two-player version of Kuhn Poker
+- Optionally, implement Leduc Poker, whose rules are described [here](https://arxiv.org/pdf/1207.1411)
 
 ## 2) Strategy Evaluation
 - Implement a function that computes the utility of both players for a given strategy profile
