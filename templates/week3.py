@@ -119,7 +119,7 @@ def fictitious_play(
     col_matrix : np.ndarray
         The column player's payoff matrix
     epochs : int
-        The number of epochs
+        The number of epochs to run the algorithm for
     naive : bool
         Whether to calculate the best response against the last
         opponent's strategy or the mean opponent's strategy
