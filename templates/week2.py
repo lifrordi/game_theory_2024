@@ -34,7 +34,7 @@ def verify_support_one_side(
     Returns
     -------
     np.ndarray | None
-        The row player's strategy, if it exists, otherwise `None`
+        The column player's strategy, if it exists, otherwise `None`
     """
 
     raise NotImplementedError

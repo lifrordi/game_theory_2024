@@ -141,12 +141,12 @@ def plot_exploitability(
 
     Parameters
     ----------
-    strategies : Iterable[tuple[np.ndarray, np.ndarray]]
-        The sequence of strategy profiles
     row_matrix : np.ndarray
         The row player's payoff matrix
     col_matrix : np.ndarray
         The column player's payoff matrix
+    strategies : Iterable[tuple[np.ndarray, np.ndarray]]
+        The sequence of strategy profiles
     label : str
         The name of the algorithm that produced `strategies`
 
